@@ -21,7 +21,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="home" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-transparent pt-20">
+    <section id="home" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-transparent">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentImageIndex}

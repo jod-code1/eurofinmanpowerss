@@ -1,6 +1,6 @@
 import Hero from '../components/Hero';
-// import About from './components/About';
-// import Services from './components/Services';
+import About from '../components/About';
+import Services from '../components/Services';
 // import Industries from './components/Industries';
 // import Stats from './components/Stats';
 // import Testimonials from './components/Testimonials';
@@ -19,9 +19,9 @@ export default function Home() {
       <AppBar />
       <main>
         <Hero />
-        {/* <About />
+        <About />
         <Services />
-        <Industries />
+       {/*   <Industries />
         <Stats />
         <Testimonials />
         <CTA />
