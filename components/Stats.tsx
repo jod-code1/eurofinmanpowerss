@@ -2,17 +2,23 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, useInView } from 'motion/react';
 
-function Counter({ end, suffix = '', duration = 2000 }) {
+interface CounterProps {
+  end: number;
+  suffix?: string;
+  duration?: number;
+}
+
+function Counter({ end, suffix = '', duration = 2000 }: CounterProps) {
   const [count, setCount] = useState(0);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
 
   useEffect(() => {
     if (isInView) {
-      let startTime = null;
-      let animationFrame;
+      let startTime: number | null = null;
+      let animationFrame: number;
 
-      const animate = (currentTime) => {
+      const animate = (currentTime: number) => {
         if (!startTime) startTime = currentTime;
         const progress = Math.min((currentTime - startTime) / duration, 1);
         
