@@ -42,7 +42,7 @@ export default function AppBar() {
               EUROFIN
             </span>
             <span className="text-xs font-semibold tracking-wider text-euro-orange-500">
-              MANPOWERS
+              MANPOWERSS
             </span>
           </div>
         </a>

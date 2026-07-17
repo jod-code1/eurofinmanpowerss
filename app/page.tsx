@@ -4,8 +4,8 @@ import Services from '../components/Services';
 import Industries from '../components/Industries';
 import Stats from '../components/Stats';
 import Testimonials from '../components/Testimonials';
-// import CTA from './components/CTA';
-// import Contact from './components/Contact';
+import CTA from '../components/CTA';
+import Contact from '../components/Contact';
 // import Footer from './components/Footer';
 import AppBar from '@/components/AppBar';
 
@@ -24,8 +24,8 @@ export default function Home() {
         <Industries />
         <Stats />
        <Testimonials />
-        {/*  <CTA />
-        <Contact /> */}
+        <CTA />
+        <Contact />
       </main>
       {/* <Footer /> */}
     </div>
