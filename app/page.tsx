@@ -1,4 +1,4 @@
-// import Hero from './components/Hero';
+import Hero from '../components/Hero';
 // import About from './components/About';
 // import Services from './components/Services';
 // import Industries from './components/Industries';
@@ -18,8 +18,8 @@ export default function Home() {
       
       <AppBar />
       <main>
-        {/* <Hero />
-        <About />
+        <Hero />
+        {/* <About />
         <Services />
         <Industries />
         <Stats />
