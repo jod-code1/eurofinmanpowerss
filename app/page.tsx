@@ -3,7 +3,7 @@ import About from '../components/About';
 import Services from '../components/Services';
 import Industries from '../components/Industries';
 import Stats from '../components/Stats';
-// import Testimonials from './components/Testimonials';
+import Testimonials from '../components/Testimonials';
 // import CTA from './components/CTA';
 // import Contact from './components/Contact';
 // import Footer from './components/Footer';
@@ -23,8 +23,8 @@ export default function Home() {
         <Services />
         <Industries />
         <Stats />
-      {/*   <Testimonials />
-        <CTA />
+       <Testimonials />
+        {/*  <CTA />
         <Contact /> */}
       </main>
       {/* <Footer /> */}
