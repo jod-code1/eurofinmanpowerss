@@ -28,7 +28,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 1.05 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 1.5, ease: 'easeInOut' }}
+          transition={{ duration: 0.7, ease: 'easeInOut' }}
           className="absolute inset-0 lg:left-1/2 lg:right-8 lg:top-24 lg:bottom-8 z-0 lg:rounded-3xl overflow-hidden lg:shadow-2xl lg:border lg:border-slate-200"
         >
           <div className="absolute inset-0 bg-gradient-to-r from-slate-50 via-slate-50/80 to-transparent z-10 lg:hidden" />

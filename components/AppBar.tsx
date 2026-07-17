@@ -33,8 +33,9 @@ export default function AppBar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-xl bg-euro-blue-900 flex items-center justify-center text-white shadow-lg group-hover:scale-105 transition-transform">
-            <span className="text-white font-bold text-sm italic">EM</span>
+          <div className=" rounded-xl bg-transparent flex items-center justify-center text-white group-hover:scale-105 transition-transform">
+            {/* <span className="text-white font-bold text-sm italic">EM</span> */}
+            <img src="/logo.png" className='w-11 h-11' alt="logo" />
           </div>
           <div className="flex flex-col">
             <span className="text-xl font-bold tracking-tight text-euro-blue-900">
